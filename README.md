@@ -2,7 +2,7 @@
 
 
 # Chào Bạn 👋
-#### 🔭 tui sống tại TP Hà Nội
+#### 🔭 tui sống tại Nghệ An 
 
 
 <br>
@@ -15,10 +15,10 @@
 <br>
 <br>
 <p align="center">
-  <a href="https://facebook.com/100035490997520" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="facebook" height="30" width="30" /></a>
-  <a href="https://messenger.com/t/100035490997520" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/messenger.svg" alt="messenger" height="30" width="30" /></a>
+  <a href="https://www.facebook.com/azz.phuc" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="facebook" height="30" width="30" /></a>
+  <a href="https://m.me/azz.phuc" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/messenger.svg" alt="messenger" height="30" width="30" /></a>
 </p>
 <br>
 <br>
 <br>
-Trộm của Citnut
+Developed By AzzPhuc
