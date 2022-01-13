@@ -2,7 +2,7 @@
 
 
 # Chào Bạn 👋
-#### 🔭 tui sống tại Nghệ An 
+#### 🔭 Tui sống tại Nghệ An 
 
 
 <br>
