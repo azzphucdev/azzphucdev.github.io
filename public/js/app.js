@@ -107,7 +107,7 @@ $(document).ready(function() {
             <div class="link-btn">
                 <div class="link-btn-chill ${links[i]['type'] == 0 ? 'light-orange' : 'light-blue'}"
                 onclick="${links[i]['type'] == 0 ? `window.open(${"'"}${links[i]['value']}${"'"}, '_blank')` : `copy(${"'"}${links[i]['value']}${"'"})`}"
-                >${links[i]['type'] == 0 ? 'OPEN' : 'COPY'}</div>
+                >${links[i]['type'] == 0 ? 'MỞ' : 'SAO CHÉP'}</div>
             </div>
         </div>
         `;
@@ -155,8 +155,8 @@ document.getElementById("dismiss-popup-btn").addEventListener("click", function(
 function draw_console_header() {
     console.log(`                                            
   
-    Source code by :  NVV-NHĐ steal
-    Facebook : https://www.facebook.com/MrDatDepZaii
+    Source code by :  AzzPhuc
+    Facebook : https://www.facebook.com/azz.phuc
     6/10/2021
     `);
 }
