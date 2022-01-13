@@ -1,6 +1,6 @@
 const __DATA__ = {
     'config': {
-        'title': 'INFO|Ngô Sỹ Phúc',
+        'title': 'INFO|NGO SY PHUC',
         'favicon': 'home.png',
     },
     'cover-image': 'bia.jpg',
@@ -14,7 +14,7 @@ const __DATA__ = {
     'bio-storys': [{
         'image': 'admin.png',
         'content': 'Giới thiệu',
-        'author': 'Chào Bạn 👋,tui sống tại Nghệ An ( Vietnamese )',
+        'author': 'Chào Bạn 👋,Tui sống tại Nghệ An ( Vietnamese )',
     }, ],
     'links': [{
             'image': 'facebook.jpg',
