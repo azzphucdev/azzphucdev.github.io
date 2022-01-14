@@ -52,10 +52,10 @@ $(document).ready(function() {
             skills_html += `
                 <div class="skill-item" style="color: #85D18A;" >${skills[i]}</div>
             `;
-} else {
-            skills_html += `
-                <div class="skill-item" style="color: #00008B;" >${skills[i]}</div>
-            `;
+
+         
+
+
         }
     }
 
