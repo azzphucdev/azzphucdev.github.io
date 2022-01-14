@@ -115,7 +115,7 @@ $(document).ready(function() {
             <div class="link-btn">
                 <div class="link-btn-chill ${links[i]['type'] == 0 ? 'light-orange' : 'light-blue'}"
                 onclick="${links[i]['type'] == 0 ? `window.open(${"'"}${links[i]['value']}${"'"}, '_blank')` : `copy(${"'"}${links[i]['value']}${"'"})`}"
-                >${links[i]['type'] == 0 ? 'OPEN' : 'COPY'}</div>
+                >${links[i]['type'] == 0 ? 'MỞ' : 'COPY'}</div>
             </div>
         </div>
         `;
