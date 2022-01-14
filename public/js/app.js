@@ -58,7 +58,7 @@ $(document).ready(function() {
             `;
         }
     }
-}
+
     for (let i = 0; i < bio_storys.length; i++) {
         bio_story_html += `
         <div class="bio-story">
