@@ -1,0 +1,79 @@
+<div id="countdown">
+      <h3 id="title">ĐẾM NGƯỢC ĐẾN TẾT NGUYÊN ĐÁN 2022</h3>
+      <ul>
+        <li><span id="days">...</span>Ngày</li>
+        <li><span id="hours">...</span>Giờ</li>
+        <li><span id="minutes">...</span>Phút</li>
+        <li><span id="seconds">...</span>Giây</li>
+      </ul>
+    </div>
+<style>
+    #countdown h3 {
+        text-align: center;
+    }
+
+    #countdown ul {
+        text-align: center;
+    }
+
+    #countdown li {
+        display: inline-block;
+        font-size: 18px;
+        text-align: center;
+        list-style-type: none;
+        padding: 1em;
+        text-transform: capitalize;
+        margin-left: 0% !important;
+    }
+
+    #countdown li span {
+        display: block;
+        font-size: 30px;
+        font-weight: 700;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border: 3px solid #ffee0a;
+        background-color: #ffee0a;
+        color: #620606;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+</style>
+<script>
+    // Đặt ngày đếm ngược, ở đây mình đặt ngày đếm ngược là 01/02/2022
+    //February: Tháng hai, 01: Ngày, 2022: Năm, 00:00:00 or 24:00:00 thời gian của ngày đếm ngược
+    var countDownDate = new Date("February 01, 2022 00:00:00").getTime();
+
+    // setInterval: Cập nhật đếm ngược sau mỗi 1 giây.
+    // 1000: 1 giây
+    var x = setInterval(function () {
+
+        // Ngày và giờ hôm nay
+        var now = new Date().getTime();
+
+        // Làm phép tính để đếm khoảng cách ngày hôm nay và ngày đếm ngược
+        var distance = countDownDate - now;
+
+        // Tính toán thời gian cho ngày, giờ, phút và giây
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerText = days,
+        document.getElementById("hours").innerText = hours,
+        document.getElementById("minutes").innerText = minutes,
+        document.getElementById("seconds").innerText = seconds
+       // document.getElementById("title").innerText = "Còn lại "+days+" ngày "+hours+" giờ "+minutes+" phút "+seconds+" giây nữa đến tết"
+        // Nếu kết thúc quá trình đếm ngược thì in ra thông báo gì đó
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("title").innerHTML = "CHÚC MỪNG NĂM MỚI 2022";
+            /*document.getElementById("days").innerText = 0,
+            document.getElementById("hours").innerText = 0,
+            document.getElementById("minutes").innerText = 0,
+            document.getElementById("seconds").innerText = 0*/
+        }
+    }, 1000);
+</script>
