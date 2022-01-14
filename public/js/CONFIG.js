@@ -10,6 +10,7 @@ const __DATA__ = {
         'Developer',
         'Sniffer',
         'Designer',
+        'Modder',
     ],
     'bio-storys': [{
         'image': 'admin.png',
