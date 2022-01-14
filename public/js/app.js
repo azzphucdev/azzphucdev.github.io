@@ -52,13 +52,13 @@ $(document).ready(function() {
             skills_html += `
                 <div class="skill-item" style="color: #85D18A;" >${skills[i]}</div>
             `;
-} else {
+        } else {
             skills_html += `
                 <div class="skill-item" style="color: #00008B;" >${skills[i]}</div>
             `;
         }
     }
-
+}
     for (let i = 0; i < bio_storys.length; i++) {
         bio_story_html += `
         <div class="bio-story">
