@@ -1,100 +1,234 @@
 <!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AZZPHUC PRO</title>
+	
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="AZZPHUC PRO" />
+    <meta
+      name="description"
+      content="AZZPHUC PRO Là Một Ứng Dụng Hack 4G VPN Nhanh, Miễn Phí Và Đáng Tin Cậy Hàng Đầu VN"  />
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="images/app_logo.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/app_logo.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/app_logo.png">
 
-<html lang="vn">
+    <!-- LATO — Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End: LATO — Google Font -->
 
-<head>
-
-  <meta property="og:url" content="https://azzphucdev.github.io" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="INFO BY NGO SY PHUC" />
-  <meta property="og:description" content="" />
-  <meta property="og:image" content="https://azzphucdev.github.io/public/images/biaz.jpg" />
-  <meta charset="UTF-8">
-
-    <meta name="description" content="Thông Tin Cá Nhân Về NGO SY PHUC">
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title></title>
-
-    <link id="favicon" rel="shortcut icon" href="" type="image/x-icon">
-
-    <!-- CSS -->
-
-    <!-- <link rel="stylesheet" href="./public/css/reset.css"> -->
-
-    <link rel="stylesheet" href="./public/css/app.css">
-
-    <link rel="stylesheet" href="./public/css/responsive.css">
-
-    <link rel="stylesheet" href="./public/css/vendor.css">
-
-    <!-- GOOGLE FONTS -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <div class="center">
-
-        <div class="popup">
-
-            <div class="title">
-
-                Thông Báo
-
-            </div>
-
-            <div id="description">
-
-            </div>
-
-            <div class="dismiss-btn">
-
-                <button id="dismiss-popup-btn">
-
-                    OK
-
-                </button>
-
-            </div>
-
-        </div>
-
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/styles2.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <!-- End: Main CSS File -->
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
     </div>
-
-    <div id="root">
-
-        <div id="main">
-
-            <div class="container">
-
-                <!-- RENDER HERE ! -->
-
-            </div>
-
+    <!-- Preloader End -->
+    <!-- Header Section -->
+    <header id="home">
+      <nav>
+        <div class="navbar-logo">
+          <a href="#" class="logo">AZZPHUC PRO</a>
         </div>
+        <div id="navbar">
+          <ul>
+            <li><a href="#home">TRANG CHỦ</a></li>
+            <li><a href="#features">THÔNG TIN</a></li>
+            <li><a href="#download">TẢI XUỐNG</a></li>
+          </ul>
+        </div>
+        <div id="mobileNav">
+          <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="myNav" class="mobileNavOverlay">
+          <div class="overlay-content">
+            <a href="javascript:void()" class="close-btn" onclick="closeNav()"
+			>&times;</a
+            >
+            <a href="#home" onclick="closeNav()">TRANG CHỦ</a>
+            <a href="#features" onclick="closeNav()">THÔNG TIN</a>
+            <a href="#download" onclick="closeNav()">TẢI XUỐNG</a>
+          </div>
+        </div>
+      </nav>
+      <div id="hero">
+        <div class="row">
+          <div class="col span_1_of_2">
+            <div class="hero-description">
+              <h1>
+                Đơn Giản, Nhanh Chóng <br />
+                & Hack 4G VPN Đáng Tin Cậy
+              </h1>
+              <p>
+                Với <span class="bold-text">AZZPHUC PRO</span>, Trải Nghiệm Duyệt Nhanh Và An Toàn!
+              </p>
 
-    </div>
+              <a href="#download" class="btn"
+			  ><span class="download-btn"> Tải Xuống Ngay</span></a
+              >
+            </div>
+          </div>
+          <div class="col span_1_of_2">
+            <img class="hero-img" src="images/1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="shape-divider">
+        <div class="custom-shape-divider-bottom-1603385849">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="scrollUp" title="Go to top">
+        <svg
+          width="1.5rem"
+          height="1.5rem"
+          viewBox="0 0 16 16"
+          class="bi bi-arrow-up"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+          />
+        </svg>
+      </button>
+    </header>
+    <!-- End: Header Section -->
 
-    <!-- PLUGIN  -->
+    <!-- Features Section -->
+    <section id="features">
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_1" src="images/features1.png" alt="" />
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="section-description features-description col1">
+            <h2 class="stylish_heading">
+              Thông Tin Về Ứng <span class="red_dot">Dụng</span>
+            </h2>
+            <p class="little-description">
+              AZZPHUC PRO Là Một Công Cụ Mạng Đảm Bảo Tính Bảo Mật Và Ẩn Danh, Đồng Thời Cho Phép Bạn Tùy Chỉnh Thời Điểm Bắt Đầu Kết Nối Với Máy Chủ. <br> Với Việc Bắt Đầu Kết Nối Tùy Chỉnh, Bạn Có Thể Bỏ Qua Các Hạn Chế Áp Dụng Cho Bất Kỳ Loại Mạng Internet Nào. . <br> Người Dùng Chịu Trách Nhiệm Về Bất Kỳ Thiệt Hại Nào Gây Ra Cho Mạng Dễ Bị Tấn Công Bởi Kỹ Thuật Này Và Cũng Chịu Trách Nhiệm Về Thiệt Hại Gây Ra Cho Chính Họ (Phí, Quy trình ...)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row second-features-row">
+        <div class="col span_1_of_2">
+          <div class="section-description features-description">
+            <h2 class="stylish_heading">
+              Phản Hồi, Báo <span class="red_dot">Lỗi</span>
+            </h2>
+            <p class="little-description">
+			  <b>Gửi Cho Chúng Tôi Đề Xuất, Lỗi Và Những Thứ Khác...<b><br>Email: siphuc034@gmail.com<b><br>Zalo: 0363105920<b><br>Facebook: AzzPhuc<b><br>Youtube: NSP OFFICIAL TV
+            </p>
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_3" src="images/features2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: Features Section -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+      <h2 class="stylish_heading">
+        Nhà Phát <span class="red_dot">Triển</span>
+      </h2>
+      <div class="row">
+        <div class="col span_1_of_3">
+          <div class="bubble">
+            <p class="message">
+              Luôn Tin Tưởng Vào Chính Mình :)
+		  </p>
+          </div>
+          <div class="client-info">
+            <img class="avatar" src="images/avatar1.jpg" alt="" />
+            <div class="name">
+              <h4>AzzPhuc</h4>
+              <p class="role">Nhà Phát Triển</p>
+            </div>
+          </div>
+        </div>
+	  </div>
+    </section>
+    <!-- End: Testimonial Section -->
+	  
+    <!-- Download The App Section -->
+    <section id="download">
+      <div class="row">
+        <img class="app-logo" src="images/app_logo.png" alt="" />
+        <h2 class="stylish_heading">
+          AZZPHUC PRO
+        </h2>
+		<p>
+		  Phiên Bản Ứng Dụng: 9.0 (Dựng 17)<br><br>
 
-    <!-- SCRIPT -->
+		  Ứng Dụng Hoàn Toàn Miễn Phí! 💯<br><br>
 
-    <script src="./public/js/CONFIG.js"></script>
+          Chúng Tôi Đã Thêm Một Số Tính Năng Nâng Cao Cho Ứng Dụng Này.<br><br>
 
-    <script src="./public/js/app.js"></script>
+		  • Khòng Quảng Cáo , Giới Hạn Thời Gian<br>
+		  • Máy Chủ Tốc Độ Cao , An Toàn , Bảo Mật<br>
+          • Hỗ Trợ Hack 4G Miễn Phí Cho Nhà Mạng Việt Nam 🇻🇳 (VIETTEL, MOBIFONE, VIETNAMOBILE, Chuyển IP , Tăng Tốc Kết Nối.)<br>
+		</p>
+		<a href='https://download2279.mediafire.com/hp8elx6bgcug/4jre3xu8bjgj4ap/AZZPHUC+PRO+8.6+F4.apk'> 
 
-</body>
+		  <button class="mybtn"> 
 
+            Tải Xuống
+
+		  </button> 
+
+		</a>
+      </div>
+    </section>
+    <!-- End: Download The App Section -->
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="links">
+        <ul>
+          <li><a href="#home">TRANG CHỦ</a></li>
+          <li><a href="#features">THÔNG TIN</a></li>
+          <li><a href="#download">TẢI XUỐNG</a></li>
+        </ul>
+      </div>
+     <p><b>AZZPHUC PRO © 2022</b></p>
+    </section>
+    <!-- End: Footer Section -->
+
+    <!-- Required JavaScript Files & CDN -->
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Main JS Files -->
+    <script src="js/essential.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
