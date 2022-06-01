@@ -41,7 +41,7 @@ const __DATA__ = {
         {
             'image': 'zalo.jpg',
             'title': 'Zalo',
-            'show-value': 'Ngô Sỹ Phúc',
+            'show-value': 'Phúc',
             'value': 'https://zalo.me/0363105920',
             'type': 0,
         },
